@@ -9,10 +9,10 @@ module.exports = {
   },
   target: 'web',
   devServer: {
-    port: '3000',
+    port: '3001',
     contentBase: 'public',
     open: true,
-    watchContentBase: true,
+    historyApiFallback: true,
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
