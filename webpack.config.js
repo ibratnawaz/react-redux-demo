@@ -6,10 +6,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'index.js',
+    publicPath: '/',
   },
   target: 'web',
   devServer: {
-    port: '3001',
+    port: '3000',
     contentBase: 'public',
     open: true,
     historyApiFallback: true,
