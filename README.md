@@ -1,6 +1,6 @@
 ## Getting Started with the React App
 
-Run the following commands to install all the packages:
+Run the following command to install all the packages:
 
 ### `npm i`
 
